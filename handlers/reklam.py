@@ -28,3 +28,4 @@ async def broadcast(_, message: Message):
             except:
                 failed=failed+1
         await message.reply_text(f"•> **Reklam başarıyla iletildi** . \n\n**Gönderildiği yer:** `{sent}` Sohbet \n**başarısız oldu:** {failed} Sohbet")
+
